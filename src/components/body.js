@@ -11,7 +11,7 @@ export default class Body extends Component {
 			<div>
 				<div>{currentTime.toTimeString()}</div>
 				<ul>
-					{arrForMapFunc.map((currentValue, index) => <li key = {index} >{index} --- {currentValue}</li>)}
+					{arrForMapFunc.map((currentValue, index) => <li key = {index} >{index} ----- {currentValue}</li>)}
 				</ul>
 			</div>
 		);
