@@ -10,8 +10,7 @@ export default class ListContact2 extends Component {
 						<li>
 							{contact.firstName} --- 
 							{contact.lastName}
-						</li>
-						<hr/>						
+						</li>					
 					</ul>
 	  	)		
 

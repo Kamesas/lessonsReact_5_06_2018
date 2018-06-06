@@ -10,12 +10,12 @@ class App extends Component {
    
     return (
      <div>
-      <h2>ListContact</h2>
+      <h2>ListContact from const</h2>
       <ListContact propsFirstName={users[0].firstName} propsLastName={users[0].lastName}/>
       <ListContact propsFirstName={users[1].firstName} propsLastName={users[1].lastName}/>
       <hr/>
 
-      <h2>ListContact2</h2>
+      <h2>ListContact2 from file datebaseContact.js</h2>
       <ListContact2 contact={datebaseContact[2]} />
       <ListContact2 contact={datebaseContact[3]} />
       <hr/>
