@@ -2,7 +2,6 @@ import React from 'react'
 
 function Article (props) {
 	const {article} = props
-	const {contact} = props
 	return(
 		<div>
 			<h2>{article.title}</h2>
