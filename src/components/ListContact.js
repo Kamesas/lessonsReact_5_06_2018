@@ -9,7 +9,8 @@ export default class ListContact extends Component {
 					<ul>
 						<li>
 						{contact.propsFirstName} --- 
-						{contact.propsLastName}						
+						{contact.propsLastName}
+						
 						</li>											
 					</ul>
 	  	)		

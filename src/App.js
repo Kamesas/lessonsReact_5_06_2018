@@ -4,12 +4,15 @@ import Body from './components/body'
 import ListContact from "./components/ListContact"
 import ListContact2 from "./components/ListContact2"
 import datebaseContact from "./components/databaseContacts"
+import PhoneBook from "./phoneBook_4/PhoneBook"
 
 class App extends Component {
   render() {
    
     return (
      <div>
+     <PhoneBook />
+     <br/><br/><hr/><hr/>
       <h2>ListContact from const</h2>
       <ListContact propsFirstName={users[0].firstName} propsLastName={users[0].lastName}/>
       <ListContact propsFirstName={users[1].firstName} propsLastName={users[1].lastName}/>
