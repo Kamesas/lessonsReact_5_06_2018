@@ -3,6 +3,7 @@ import ContactList from "./ContactList"
 import dataBaseContactFromFile from "../components/databaseContacts"
 import boxContacts from "./boxContacts"
 import Article from "./Article"
+import ArticleList from "./ArticleList"
 import fixtures from "../fixtures"
 import ContactLIst2 from "./ContactList2"
 
@@ -16,7 +17,8 @@ export default class PhoneBook extends Component {
 
 						<ContactLIst2 contactFromContactLIst2="boxContacts[0]"/>
 
-						<Article article={fixtures[0]} />
+						<Article ar={fixtures[0]} />
+						<ArticleList art = {fixtures} />
 
 						<h2>Книга контактов</h2>
 						<ContactList person={dataBaseContact[0].firstName + dataBaseContact[0].lastName}/>
